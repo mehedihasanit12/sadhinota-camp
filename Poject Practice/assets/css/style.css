@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Hero Section Start*/
+
+
+.hero-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+/* Hero left Start */
+
+
+.hero-left{
+    position: absolute;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgb(205, 198, 198);
+    border-radius: 10px;
+}
+
+.hero-left h1{
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.hero-left p{
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.input-one{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.input-one span{
+    font-weight: bold;
+}
+
+.input-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkin{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+     border-radius: 10px 0px 0px 10px;
+}
+
+.checkin span{
+    font-weight: bold;
+}
+
+.checkout{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.checkout span{
+    font-weight: bold;
+}
+
+
+button {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ed2d2d;
+}
+
+button img{
+    width: 16px;
+}
+
+
+/* Hero left End */
+
+
+/* Hero Right Start */
+
+
+.hero-right{
+
+}
+
+.hero-image-wrapper{
+    margin-left: 232px;
+    width: 1041px;
+    height: 428px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.hero-image-wrapper img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Hero Right End */
+
+
+
+
+/* Hero Section End */
+
+
+
+
+
+/* Top-rated holiday Start */
+
+.top-rated-holiday{
+    margin-bottom: 50px;
+}
+
+
+/* Top-rated Head Start */
+
+.top-rated-holiday-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.top-rated-left{
+
+}
+
+.top-rated-left h1{
+    font-size: 30px;
+}
+
+.top-rated-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.top-rated-arrow-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-rated-arrow-left{
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.top-rated-arrow-left img{
+    
+}
+
+.top-rated-arrow-right{
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.top-rated-arrow-right img{
+   
+}
+
+/* Top-rated Head End */
+
+
+/* Top-rated Body start */
+
+.top-rated-holiday-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.top-rated-card-one{
+    width: 300px;
+    
+}
+
+.top-rated-card-one p{
+    color: #918282;
+}
+
+.top-rated-card-posdiv{
+    color: white;
+    background-color: #ed2d2d;
+    width: 26%;
+    padding: 5px;
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+    left: 17px;
+}
+
+
+.top-rated-card-image{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+
+.top-rated-card-image img{
+    width: 100%;
+}
+
+.top-rated-card-content{
+    
+}
+
+.top-rated-card-content-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top-rated-card-content-left{
+    font-size: 15px;
+}
+
+
+.top-rated-card-content-right{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    width: 20px;
+    text-wrap: nowrap;
+}
+
+
+/* Top-rated Body End */
+
+
+
+
+/* Top-rated holiday End */
+
+
+
+
+/* Holiday Rentals Start */
+
+.holiday-rentals{
+    margin-bottom: 50px;
+}
+
+
+/* Holiday rentals Head Start */
+
+
+.holiday-rentals-head{
+    margin-bottom: 30px;
+}
+
+.holiday-rentals-head h3{
+    font-size: 30px;
+}
+
+
+
+/* Holiday rentals Head End */
+
+
+
+/* Holiday rentals body Start */
+
+.holiday-rentals-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.holiday-rentals-body-card-one{
+    
+}
+
+
+.holiday-rentals-body-image{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.holiday-rentals-body-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.holiday-rentals-body-content{
+
+}
+
+/* Holiday rentals body End */
+
+
+
+/* Holiday Rentals End */
+
+
+
+/* Popular amenities Start */
+
+.amenities-section{
+    margin-bottom: 50px;
+}
+
+.amenities-section h1{
+    margin-bottom: 50px;
+}
+
+.amenities-card-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.amenities-card{
+    width: 236px;
+    height: 93px;
+    padding: 20px;
+    box-shadow: 0px 3px 16px #ddd;
+}
+
+.amenities-card img{
+    width: 10%;
+}
+
+
+
+/* Popular amenities End */
